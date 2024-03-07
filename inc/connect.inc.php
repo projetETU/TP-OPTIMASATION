@@ -1,4 +1,19 @@
-<?php 
-	mysql_connect("localhost","root","") or die("Couldn't connet to SQL server");
-	mysql_select_db("ebuybd") or die("Couldn'ttt select DB");
+<?php
+$servername = "localhost";
+$username = "men";
+$password = "123";
+$dbname = "ebuybd";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Your code here
+
+// Close connection
+$conn->close();
 ?>
