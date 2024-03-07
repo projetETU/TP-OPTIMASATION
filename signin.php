@@ -131,6 +131,8 @@ $_POST['last_name'] = trim($_POST['last_name']);
 	<head>
 		<title>Welcome to ebuybd online shop</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="/js/analytics.js"></script>
+
 	</head>
 	<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg2.png);">
 		<div class="homepageheader" style="position: inherit;">

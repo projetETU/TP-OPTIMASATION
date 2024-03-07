@@ -5,6 +5,8 @@
 	<link rel="icon" href="image/title.png" type="image/x-icon">
 	<meta charset="uft-8">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="/js/analytics.js"></script>
+
 </head>
 <body class="home-welcome-text" style="background-image: url(image/homebackgrndimg3.png);">
 	<div>

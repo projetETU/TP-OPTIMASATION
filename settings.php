@@ -98,6 +98,8 @@ $npass1 = $_POST['npass1'];
 	<title>SAREE</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="/js/analytics.js"></script>
+
 </head>
 <body style="background-image: url(image/homebackgrndimg1.png);">
 	<div class="homepageheader">

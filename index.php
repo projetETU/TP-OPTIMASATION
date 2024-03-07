@@ -20,6 +20,7 @@ else {
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<script src="/js/homeslideshow.js"></script>
+		<script src="/js/analytics.js"></script>
 	</head>
 	<body style="min-width: 980px;">
 		<div class="homepageheader" style="position: relative;">

@@ -34,6 +34,8 @@ $search_value = trim($_GET['keywords']);
 <head>
 	<title>SAREE</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="/js/analytics.js"></script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>

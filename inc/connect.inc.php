@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "men";
-$password = "123";
-$dbname = "ebuybd";
+$servername = "mysql-itu.alwaysdata.net";
+$username = "itu_men";
+$password = "MENDRIKAmalal";
+$dbname = "itu_ebuybd";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
