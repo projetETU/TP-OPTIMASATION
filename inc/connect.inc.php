@@ -14,6 +14,6 @@ if ($conn->connect_error) {
 
 // Your code here
 
-// Close connection
-$conn->close();
+// // Close connection
+// $conn->close();
 ?>

@@ -5,9 +5,17 @@
 	<link rel="icon" href="image/title.png" type="image/x-icon">
 	<meta charset="uft-8">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<script src="/js/analytics.js"></script>
-
+	
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SEVJW9KBRP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SEVJW9KBRP');
+</script>
 <body class="home-welcome-text" style="background-image: url(image/homebackgrndimg3.png);">
 	<div>
 		<div class="homepageheader">

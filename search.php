@@ -34,10 +34,18 @@ $search_value = trim($_GET['keywords']);
 <head>
 	<title>SAREE</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="/js/analytics.js"></script>
-
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SEVJW9KBRP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SEVJW9KBRP');
+</script>
 <body>
 	<div class="homepageheader">
 		<div class="signinButton loginButton">

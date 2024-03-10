@@ -41,31 +41,32 @@ else {
 	<div style="padding: 30px 120px; font-size: 25px; margin: 0 auto; display: table; width: 98%;">
 		<div>
 		<?php 
-			$getposts = mysql_query("SELECT * FROM products WHERE available >='1' AND item ='tshirt'  ORDER BY id DESC LIMIT 10") or die(mysql_error());
-					if (mysql_num_rows($getposts)) {
-					echo '<ul id="recs">';
-					while ($row = mysql_fetch_assoc($getposts)) {
-						$id = $row['id'];
-						$pName = $row['pName'];
-						$price = $row['price'];
-						$description = $row['description'];
-						$picture = $row['picture'];
-						
-						echo '
-							<ul style="float: left;">
-								<li style="float: left; padding: 0px 25px 25px 25px;">
-									<div class="home-prodlist-img"><a href="view_product.php?pid='.$id.'">
-										<img src="../image/product/tshirt/'.$picture.'" class="home-prodlist-imgi">
-										</a>
-										<div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;">'.$pName.'</span><br> Price: '.$price.' Tk</div>
-									</div>
-									
-								</li>
-							</ul>
-						';
-
-						}
-				}
+		$getposts = $conn->query("SELECT * FROM products WHERE available >= '1' AND item = 'tshirt' ORDER BY id DESC LIMIT 10");
+		
+		if ($getposts->num_rows > 0) {
+			echo '<ul id="recs">';
+			while ($row = $getposts->fetch_assoc()) {
+				$id = $row['id'];
+				$pName = $row['pName'];
+				$price = $row['price'];
+				$description = $row['description'];
+				$picture = $row['picture'];
+		
+				echo '
+					<ul style="float: left;">
+						<li style="float: left; padding: 0px 25px 25px 25px;">
+							<div class="home-prodlist-img"><a href="view_product.php?pid=' . $id . '">
+								<img src="../image/product/perfume/' . $picture . '" class="home-prodlist-imgi">
+								</a>
+								<div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;">' . $pName . '</span><br> Price: ' . $price . ' Tk</div>
+							</div>
+						</li>
+					</ul>
+				';
+			}
+			echo '</ul>';
+		}
+		$conn->close();
 		?>
 			
 		</div>

@@ -19,9 +19,11 @@ if (isset($_REQUEST['pid'])) {
 }
 
 
-$getposts = mysql_query("SELECT * FROM products WHERE id ='$pid'") or die(mysql_error());
-					if (mysql_num_rows($getposts)) {
-						$row = mysql_fetch_assoc($getposts);
+$getposts = $conn->query("SELECT * FROM products WHERE id ='$pid'") ;
+
+
+					if ($getposts -> num_rows > 0) {
+						$row = $getposts -> fetch_assoc();
 						$id = $row['id'];
 						$pName = $row['pName'];
 						$price = $row['price'];
