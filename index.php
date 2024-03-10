@@ -61,7 +61,7 @@ else {
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.png">
+					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
 				</a>
 			</div>
 			<div class="">
@@ -74,7 +74,7 @@ else {
 			</div>
 		</div>
 		<div class="home-welcome">
-			<div class="home-welcome-text" style="background-image: url(image/homebackgrndimg.png); height: 380px; ">
+			<div class="home-welcome-text" style="background-image: url(image/homebackgrndimg.webp); height: 380px; ">
 				<h1 style="margin: 0px;">Welcome To eBuyBD</h1>
 				<h2>Largest Online Shopping In Bangladesh</h2>
 			</div>
@@ -95,7 +95,7 @@ else {
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="women/perfume.php">
-							<img src="./image/product/perfume/Most-Popular-Perfumes-for-Women10.png" class="home-prodlist-imgi">
+							<img src="./image/product/perfume/Most-Popular-Perfumes-for-Women10.webp" class="home-prodlist-imgi">
 							</a>
 						</div>
 					</li>
@@ -103,42 +103,42 @@ else {
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="women/hijab.php">
-							<img src="./image/product/saree/hijab 1.png" class="home-prodlist-imgi"></a>
+							<img src="./image/product/saree/hijab 1.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="women/toilatry.php">
-							<img src="./image/product/beauty/toiletries.png" class="home-prodlist-imgi"></a>
+							<img src="./image/product/beauty/toiletries.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="women/footwear.php">
-							<img src="./image/product/footwear/footwear1.png" class="home-prodlist-imgi"></a>
+							<img src="./image/product/footwear/footwear1.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="women/tshirt.php">
-							<img src="./image/product/saree/tshirts1.png" class="home-prodlist-imgi"></a>
+							<img src="./image/product/saree/tshirts1.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="women/watch.php">
-							<img src="./image/product/watch/watches1.png" class="home-prodlist-imgi"></a>
+							<img src="./image/product/watch/watches1.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="women/ornament.php">
-							<img src="./image/product/ornament/earrings1.png" class="home-prodlist-imgi"></a>
+							<img src="./image/product/ornament/earrings1.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>

@@ -142,7 +142,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 
   gtag('config', 'G-SEVJW9KBRP');
 </script>
-	<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg2.png);">
+	<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg2.webp);">
 		<div class="homepageheader" style="position: inherit;">
 			<div class="signinButton loginButton">
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
@@ -154,7 +154,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.png">
+					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
 				</a>
 			</div>
 			<div class="">

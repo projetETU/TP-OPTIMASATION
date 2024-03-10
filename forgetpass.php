@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Password Recover</title>
-	<link rel="icon" href="image/title.png" type="image/x-icon">
+	<link rel="icon" href="image/title.webp" type="image/x-icon">
 	<meta charset="uft-8">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	
@@ -16,7 +16,7 @@
 
   gtag('config', 'G-SEVJW9KBRP');
 </script>
-<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg3.png);">
+<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg3.webp);">
 	<div>
 		<div class="homepageheader">
 			<div class="signinButton loginButton">
@@ -29,7 +29,7 @@
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.png">
+					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
 				</a>
 			</div>
 			<div class="">

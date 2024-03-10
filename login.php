@@ -110,7 +110,7 @@ if(isset($_POST['activate'])){
 
   gtag('config', 'G-SEVJW9KBRP');
 </script>
-	<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg1.png);">
+	<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg1.webp);">
 		<div class="homepageheader">
 			<div class="signinButton loginButton">
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
@@ -122,7 +122,7 @@ if(isset($_POST['activate'])){
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.png">
+					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
 				</a>
 			</div>
 			<div class="">
