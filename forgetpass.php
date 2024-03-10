@@ -8,7 +8,6 @@
 	
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SEVJW9KBRP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -29,7 +28,7 @@
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
+					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp" alt="logo">
 				</a>
 			</div>
 			<div class="">

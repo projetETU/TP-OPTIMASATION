@@ -38,7 +38,6 @@ $search_value = trim($_GET['keywords']);
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SEVJW9KBRP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -122,7 +121,7 @@ $search_value = trim($_GET['keywords']);
 							<ul style="float: left;">
 								<li style="float: left; padding: 0px 25px 25px 25px;">
 									<div class="home-prodlist-img"><a href="women/view_product.php?pid='.$id.'">
-										<img src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi">
+										<img src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi" alt="'.$pName.'">
 										</a>
 										<div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;">'.$pName.'</span><br> Price: '.$price.' Tk</div>
 									</div>

@@ -39,7 +39,6 @@ $search_value = "";
 	
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SEVJW9KBRP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -162,7 +161,7 @@ $search_value = "";
 									<th><?php echo $oplace; ?></th>
 									<th><?php echo $dstatus; ?></th>
 									<th><?php echo '<div class="home-prodlist-img"><a href="'.$category.'/view_product.php?pid='.$pId.'">
-													<img src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi" style="height: 75px; width: 75px;">
+													<img src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi" style="height: 75px; width: 75px;"  alt="'.$pName.'">
 													</a>
 												</div>' ?></th>
 								</tr>
