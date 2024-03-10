@@ -7,8 +7,8 @@ if (!isset($_SESSION['user_login'])) {
 }
 else {
 	$user = $_SESSION['user_login'];
-	$result = mysql_query("SELECT * FROM user WHERE id='$user'");
-		$get_user_email = mysql_fetch_assoc($result);
+	$result = $conn ->query("SELECT * FROM user WHERE id='$user'");
+		$get_user_email = $result -> fetch_assoc();
 			$uname_db = $get_user_email['firstName'];
 }
 ?>
@@ -41,10 +41,10 @@ else {
 	<div style="padding: 30px 120px; font-size: 25px; margin: 0 auto; display: table; width: 98%;">
 		<div>
 		<?php 
-			$getposts = mysql_query("SELECT * FROM products WHERE available >='1' AND item ='watch'  ORDER BY id DESC LIMIT 10") or die(mysql_error());
-					if (mysql_num_rows($getposts)) {
+			$getposts = $conn ->query("SELECT * FROM products WHERE available >='1' AND item ='watch'  ORDER BY id DESC LIMIT 10") or die(mysql_error());
+					if ($getposts ->num_rows) {
 					echo '<ul id="recs">';
-					while ($row = mysql_fetch_assoc($getposts)) {
+					while ($row = $getposts -> fetch_assoc()) {
 						$id = $row['id'];
 						$pName = $row['pName'];
 						$price = $row['price'];

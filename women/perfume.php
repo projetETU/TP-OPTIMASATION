@@ -7,8 +7,8 @@ if (!isset($_SESSION['user_login'])) {
 }
 else {
 	$user = $_SESSION['user_login'];
-	$result = mysql_query("SELECT * FROM user WHERE id='$user'");
-		$get_user_email = mysql_fetch_assoc($result);
+	$result = $conn ->query ("SELECT * FROM user WHERE id='$user'");
+		$get_user_email = $result ->fetch_assoc();
 			$uname_db = $get_user_email['firstName'];
 }
 ?>

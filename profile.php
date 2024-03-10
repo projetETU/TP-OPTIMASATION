@@ -8,8 +8,8 @@ if (!isset($_SESSION['user_login'])) {
 }
 else {
 	$user = $_SESSION['user_login'];
-	$result = mysql_query("SELECT * FROM user WHERE id='$user'");
-		$get_user_email = mysql_fetch_assoc($result);
+	$result = $conn ->query("SELECT * FROM user WHERE id='$user'");
+		$get_user_email = $result -> fetch_assoc();
 			$uname_db = $get_user_email['firstName'];
 			$uemail_db = $get_user_email['email'];
 
@@ -19,7 +19,7 @@ else {
 
 if (isset($_REQUEST['uid'])) {
 	
-	$user2 = mysql_real_escape_string($_REQUEST['uid']);
+	$user2 = mysqli_real_escape_string($conn,$_REQUEST['uid']);
 	if($user != $user2){
 		header('location: index.php');
 	}
@@ -133,8 +133,8 @@ $search_value = "";
 								<tr>
 									<?php include ( "inc/connect.inc.php");
 									$query = "SELECT * FROM orders WHERE uid='$user' ORDER BY id DESC";
-									$run = mysql_query($query);
-									while ($row=mysql_fetch_assoc($run)) {
+									$run = $conn ->query($query);
+									while ($row=$run -> fetch_assoc()) {
 										$pid = $row['pid'];
 										$quantity = $row['quantity'];
 										$oplace = $row['oplace'];
@@ -145,8 +145,8 @@ $search_value = "";
 										
 										//get product info
 										$query1 = "SELECT * FROM products WHERE id='$pid'";
-										$run1 = mysql_query($query1);
-										$row1=mysql_fetch_assoc($run1);
+										$run1 = $conn ->query($query1);
+										$row1=$run1 -> fetch_assoc();	
 										$pId = $row1['id'];
 										$pName = substr($row1['pName'], 0,50);
 										$price = $row1['price'];

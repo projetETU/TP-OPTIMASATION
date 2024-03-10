@@ -7,8 +7,8 @@ if (!isset($_SESSION['user_login'])) {
 }
 else {
 	$user = $_SESSION['user_login'];
-	$result = mysql_query("SELECT * FROM user WHERE id='$user'");
-		$get_user_email = mysql_fetch_assoc($result);
+	$result = $conn ->query("SELECT * FROM user WHERE id='$user'");
+		$get_user_email = $result -> fetch_assoc();
 			$uname_db = $get_user_email['firstName'];
 }
 if (isset($_REQUEST['pid'])) {
@@ -99,10 +99,10 @@ $getposts = $conn->query("SELECT * FROM products WHERE id ='$pid'") ;
 		<h3 style="padding-bottom: 20px">Recommand Product For You:</h3>
 		<div>
 		<?php 
-			$getposts = mysql_query("SELECT * FROM products WHERE available >='1' AND id != '".$pid."' AND item ='".$item."'  ORDER BY RAND() LIMIT 3") or die(mysql_error());
-					if (mysql_num_rows($getposts)) {
+			$getposts = $conn -> query ("SELECT * FROM products WHERE available >='1' AND id != '".$pid."' AND item ='".$item."'  ORDER BY RAND() LIMIT 3") or die(mysql_error());
+					if ($getposts -> num_rows > 0) {
 					echo '<ul id="recs">';
-					while ($row = mysql_fetch_assoc($getposts)) {
+					while ($row = $getposts -> fetch_assoc() ) {
 						$id = $row['id'];
 						$pName = $row['pName'];
 						$price = $row['price'];
