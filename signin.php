@@ -121,11 +121,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 		$error_message = $e->getMessage();
 	}
 }
-
-
 ?>
-
-
 <!doctype html>
 <html lang="en">
 		<head>
