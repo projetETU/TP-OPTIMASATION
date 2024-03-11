@@ -121,7 +121,7 @@ if(isset($_POST['activate'])){
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 			<a href="index.php"  aria-label="home">
-					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
+					<img alt="logo" style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
 				</a>
 			</div>
 			<div class="">

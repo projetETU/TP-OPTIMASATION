@@ -22,6 +22,7 @@ else {
 		<title>Welcome to ebuybd online shop</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Women outfit websites ,accesories , tshirt">
 		<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 			</head>
 			<!-- Google tag (gtag.js) -->
@@ -59,7 +60,7 @@ else {
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 				<a href="index.php"  aria-label="home">
-					<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
+					<img alt="logo" style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
 				</a>
 			</div>
 			<div class="">
