@@ -71,7 +71,7 @@ $search_value = trim($_GET['keywords']);
 			</div>
 		</div>
 		<div style="float: left; margin: 5px 0px 0px 23px;">
-			<a href="index.php">
+		<a href="index.php"  aria-label="home">
 				<img style=" height: 75px; width: 130px;" src="image/ebuybdlogo.webp">
 			</a>
 		</div>
