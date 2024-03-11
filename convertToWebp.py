@@ -1,15 +1,20 @@
 from PIL import Image
 import os
 
-input_directory = "image/product/watch"
+def resize_image(input_image_path, output_image_path, size):
+    with Image.open(input_image_path) as img:
+        img = img.resize(size, Image.ANTIALIAS)
+        img.save(output_image_path, "webp")
+
+input_directory = "image/"
 extensions = ["png", "jpg", "jpeg", "gif", "bmp"]
+output_size = (294, 344)  # Adjust the size as needed
 
 for filename in os.listdir(input_directory):
     if any(filename.lower().endswith(ext) for ext in extensions) and not filename.lower().endswith(".php"):
         input_path = os.path.join(input_directory, filename)
-        img = Image.open(input_path)
-        output_path = input_path.rsplit(".", 1)[0] + ".webp"  
-        img.save(output_path, "webp")
+        output_path = input_path.rsplit(".", 1)[0] + ".webp"
+        resize_image(input_path, output_path, output_size)
 
 files = os.listdir(input_directory)
 for file in files:
