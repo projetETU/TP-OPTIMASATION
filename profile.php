@@ -31,8 +31,8 @@ $search_value = "";
 ?>
 
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+	<head>
 	<title>SAREE</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

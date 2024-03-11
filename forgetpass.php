@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Password Recover</title>
 	<link rel="icon" href="image/title.webp" type="image/x-icon">

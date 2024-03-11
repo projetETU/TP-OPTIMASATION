@@ -95,8 +95,8 @@ if(isset($_POST['activate'])){
 ?>
 
 <!doctype html>
-<html>
-	<head>
+<html lang="en">
+		<head>
 		<title>Welcome to ebuybd online shop</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		

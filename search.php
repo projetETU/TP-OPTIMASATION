@@ -30,8 +30,8 @@ $search_value = trim($_GET['keywords']);
 ?>
 
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+	<head>
 	<title>SAREE</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	

@@ -64,8 +64,8 @@ $_POST['last_name'] = trim($_POST['last_name']);
 		// Check if email already exists
 		
 		$check = 0;
-		$e_check = mysql_query("SELECT email FROM `user` WHERE email='$u_email'");
-		$email_check = mysql_num_rows($e_check);
+		$e_check = $conn -> query("SELECT email FROM `user` WHERE email='$u_email'");
+		$email_check = $e_check -> num_rows;
 		if (strlen($_POST['first_name']) >2 && strlen($_POST['first_name']) <16 ) {
 			if ($check == 0 ) {
 				if ($email_check == 0) {
@@ -127,8 +127,8 @@ $_POST['last_name'] = trim($_POST['last_name']);
 
 
 <!doctype html>
-<html>
-	<head>
+<html lang="en">
+		<head>
 		<title>Welcome to ebuybd online shop</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
