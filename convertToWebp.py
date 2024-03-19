@@ -7,8 +7,6 @@ def resize_image(input_image_path, output_image_path, size):
         img.save(output_image_path, "webp")
 
 input_directory = "image/"
-extensions = ["png", "jpg", "jpeg", "gif", "bmp"]
-output_size = (294, 344)  # Adjust the size as needed
 
 for filename in os.listdir(input_directory):
     if any(filename.lower().endswith(ext) for ext in extensions) and not filename.lower().endswith(".php"):

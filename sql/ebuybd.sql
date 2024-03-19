@@ -91,16 +91,11 @@ INSERT INTO `orders` (`id`, `uid`, `pid`, `quantity`, `oplace`, `mobile`, `dstat
 (28, 11, 29, 1, 'Saver, Dhaka', '01678293748', 'no', '2017-04-10', '2017-04-11'),
 (29, 11, 43, 1, 'Saver, Dhaka', '01678293748', 'no', '2017-04-10', '2017-06-12');
 
--- --------------------------------------------------------
-
---
--- Table structure for table `products`
---
 
 CREATE TABLE IF NOT EXISTS `products` (
 `id` int(11) NOT NULL,
   `pName` varchar(100) NOT NULL,
-  `price` int(11) NOT NULL,
+  `price` int(11) NOT NULL, 
   `description` text NOT NULL,
   `available` int(11) NOT NULL,
   `category` varchar(100) NOT NULL,
